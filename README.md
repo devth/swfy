@@ -1,7 +1,7 @@
 flash-html-scaffold
 ===================
 
-* git clone git://github.com/devth/flash-html-scaffold.git
+* git clone git://github.com/devth/flash-html-scaffold.git www (creates www directory)
 * copy your SWF to the project dir (or subdir)
 * edit SWFObject JS in index.htm to set the proper name, dimensions and embedding options
 * publish!
