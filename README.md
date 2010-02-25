@@ -6,5 +6,4 @@ flash-html-scaffold
 * edit SWFObject JS in index.htm to set the proper name, dimensions and embedding options
 * publish!
 
-
 flash-html-scaffold Relies on [SWFObject](http://code.google.com/p/swfobject/) for SWF embedding.
