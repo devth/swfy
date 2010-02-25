@@ -7,6 +7,6 @@ flash-html-scaffold
 * publish!
 
 
-flash-html-scaffold Relies on [SWFObject][1] for SWF embedding.
+flash-html-scaffold Relies on [SWFObject] [1] for SWF embedding.
 
 	[1]: http://code.google.com/p/swfobject/
