@@ -1,9 +1,7 @@
-flash-html-scaffold
-===================
+# swfy
+swfy is on its way to becoming a gem with a command line interface that lets you
 
-* git clone git://github.com/devth/flash-html-scaffold.git www
-* copy your SWF to the project dir (or subdir)
-* edit SWFObject JS in index.htm to set the proper name, dimensions and embedding options
-* publish!
+* scaffold html with SWF embed code
+* append SWF embedding inside existing html
 
-flash-html-scaffold Relies on [SWFObject](http://code.google.com/p/swfobject/) for SWF embedding.
+and relies on [SWFObject](http://code.google.com/p/swfobject/).
