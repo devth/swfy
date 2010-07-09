@@ -5,13 +5,12 @@ require 'ftools'
 class Swfy
   
   def create_doc( file_name )
-    if File.exists?( file_name )
-      file = File.open( file_name )
-    else
-      file = File.copy('template/main.html', file_name)
-    end
+    File.copy('template/main.html', file_name) unless File.exists?( file_name )
+    file = File.open( file_name )
 
     doc = Nokogiri::HTML( file )
+
+    file.close
 
   end
 
